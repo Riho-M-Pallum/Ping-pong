@@ -43,7 +43,7 @@ void setup(){
   b = new ball(width/2,height/2,10,0);    //pos.x,pos.y,vel.x,vel.y
   b.d = width/40;
   b.file = new SoundFile(this,"Sounds\\Bounce.wav");
-  file = new SoundFile(this,"Sounds\\Vibrator2.wav");
+  file = new SoundFile(this,"Sounds\\Vibrator2.mp3");
   
   pad = new pad(width/20,height/2-size/2);  // pos.x,pos.y
   pad.size = size;               // height of pad
